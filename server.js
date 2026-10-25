@@ -68,7 +68,7 @@ app.post(
         try {
           console.log(`🚀 Attempting connection to HF Space: ${spaceName}...`);
           appClient = await Client.connect(spaceName, {
-            token: HF_TOKEN,
+            hf_token: HF_TOKEN,
             space_status: (status) =>
               console.log(`⏳ [${spaceName}] Status:`, status.stage),
           });
