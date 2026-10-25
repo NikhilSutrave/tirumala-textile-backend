@@ -1,0 +1,20 @@
+{
+  "name": "fabric-tryon-backend",
+  "version": "1.0.0",
+  "description": "Backend API proxy for textile virtual try-on AI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@gradio/client": "^1.19.1",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^4.22.3",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.35.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
