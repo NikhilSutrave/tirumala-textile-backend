@@ -52,12 +52,14 @@ app.post(
 
       // Precise prompts for collared button-down shirts and trousers
       let garmentPrompt =
-        "Short sleeve casual button down shirt with collar and front buttons";
+        "A crisp men's short-sleeve button-down shirt with a structured button-down collar, visible center front button placket, and clear buttons";
+
       if (category === "full_sleeve_shirt") {
         garmentPrompt =
-          "Long sleeve formal button down dress shirt with collar, front buttons, and sleeve cuffs";
+          "A crisp men's long-sleeve button-down plaid shirt with a structured collar, full vertical center button placket with clear buttons, and clean sleeve cuffs";
       } else if (category === "lower_body") {
-        garmentPrompt = "Men formal trousers pants";
+        garmentPrompt =
+          "Men's tailored formal trousers with a clean waistband and sharp crease lines";
       }
 
       let appClient = null;
